@@ -1,0 +1,10 @@
+Layers:
+The numbering of the layers determine the drawing order. The higher the number, the later it is drawn.    
+    0. Generated ground layer. Probably use a noise function to generate the ground.
+    1. Reserved for later use.
+    2. Main layer. This is where the player and most of the objects will be drawn.
+    3. Reserved for later use.
+    4. Foreground layer. This is where the foreground objects will be drawn.
+    5. Reserved for later use.
+    6. Highlight layer. On this layer, the player and other entity outlines will be drawn if they are behind a foreground object.
+    7. UI layer. This is where the UI will be drawn.
